@@ -55,7 +55,7 @@ spark_dependencies <- function(scala_version, ...) {
   }else{
     sparklyr::spark_dependency(
       packages = c(
-        sprintf("saurfang:spark-sas7bdat:1.1.5-s_%s", scala_version)
+        sprintf("saurfang:spark-sas7bdat:2.0.0-s_%s", scala_version)
       )
     )
   }
